@@ -1,0 +1,190 @@
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    padding: 60px;
+    border-radius:20px ;
+    background-color: rgba(0, 0, 0 0.2rem);
+}
+
+.img-center{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 320px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius:20px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0 0.2rem);
+    opacity: 0.3;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* Saisie De Notes :: Titre*/
+.VosM>p{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 80px;
+    color: rgb(0, 0, 0);
+}
+
+.globally>img{
+    margin-top:110px;
+}
+
+/*Ligne horizontale après Saisie Modules */
+.VosM .HL{
+    margin: 0 80px 0 80px;
+    height: 4px;
+    background-color: #000;
+}
+
+
+/* Raccourcis */
+aside#A-racc{
+    margin-bottom: 80px;
+}
+aside#A-racc img{
+    padding: 10px;
+    margin: 70px;
+    height: 70px;
+    width: 70px;
+    margin-right: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    background-color: rgba(170, 169, 78, 0.377);
+    border-radius: 10px;
+}
+
+.allimages{
+    display: flex;
+    margin-left: 40px;
+}
+
+aside#A-racc p.special-para{
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+    letter-spacing: 18px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.allimages .nameT{
+    font-size: 20px;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
+    margin-left: 73px;
+    margin-top: -55px;
+}
+
+
+.allimages .firstT{
+    flex:1;
+    
+}
+
+aside#A-racc hr{
+    margin: 0 80px 0 80px;
+    height: 4px;
+    background-color: black;
+    font-weight: bold;
+}
+
+
+.labdate{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+input[type=date] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+
+
+  .globally{
+    position: relative;
+    margin-bottom: -120px;
+  }
+
+  .container{
+    position: relative;
+    bottom: 735px;
+    right: -103px;
+  }
+
+  form{
+    position: absolute;
+    top:198px;
+    right: 515px;
+    overflow: hidden;
+  }
+
+
+  .form-group{
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group label, label.labdate{
+    flex:1;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: 'MuseoModerno', cursive;
+
+
+  }
+
+/* Réduire la taille du bouton */
+.form-group input[type="file"] {
+    padding: 5px;
+    font-size: 13px;
+    font-family: ;
+    margin:10px;
+    flex:1;
+}
+
+.form-group input[type="file"] {
+    background-color: #eaeaea;
+    color: #333;
+}
+
+/* Style du bouton de sélection de fichier */
+.form-group input[type="file"]::-webkit-file-upload-button {
+    background-color: rgba(97, 96, 30, 75%);;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #286090;
+}
+
+button#envoyerFich{
+    margin-left: 14px;
+}

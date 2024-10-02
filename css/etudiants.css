@@ -1,0 +1,17 @@
+.HL2{
+  margin: 0 80px 80px 80px;
+  border-width: 6px;
+  border-color: black;
+  font-weight: bold;
+  color: black;
+  height: 2px;
+}
+#titre {
+  font-family: 'MuseoModerno', cursive;
+  font-size: 50px;
+  margin: 80px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  flex: 1;
+}
+

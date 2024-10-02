@@ -1,0 +1,18 @@
+#info-Module{
+    margin: 80px;
+}
+
+#info-Module>div p{
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: #9F2020;
+}
+
+.talk{
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: 'Comfortaa', cursive;
+}

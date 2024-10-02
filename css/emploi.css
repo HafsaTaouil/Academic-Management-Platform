@@ -1,0 +1,75 @@
+#first-div{
+    padding: 25px;
+    padding-top: 30px;
+    margin: 30px;
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'MuseoModerno', cursive;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    background-color: rgba(121, 120, 66, 0.575);
+}
+
+#cadre-emploi{
+    width: 900px;
+    height: 520px;
+    border: 1px solid black;
+    margin: 100px 0px 100px 230px;
+    background-color: rgba(141, 139, 42, 0.2);
+    position: relative;
+}
+
+
+#aside-emploi{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.459);
+    margin:30px;
+    padding: 30px;
+}
+
+
+#aside-emploi > p{
+    flex:1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 9px;
+    padding:20px;
+}
+
+#aside-emploi .allimages{
+    display: flex;
+    margin-left: 50px;
+    flex:1;
+    margin-bottom: 20px;
+}
+
+#aside-emploi img {
+    margin-right: 160px;
+    width: 80px;
+    flex:1;
+    margin-left:7.7px;
+
+}
+
+#getEmploi button{
+    position: absolute;
+    top:550px;
+    right: 0px;
+}
+
+.allimages p{
+    margin:20px;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
+}
+.blocEtudiants>p{
+    position: relative;
+    left: -9px;
+}
+.blocAbscence>p{
+    position: relative;
+    left: -9px;
+}
+

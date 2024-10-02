@@ -1,0 +1,165 @@
+.burger {
+  cursor: pointer;
+  height: 24px;
+  width: 42px;
+  position: relative;
+}
+
+#nav-bar{
+  margin:20px;
+}
+
+.burger span {
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background-color 0.5s ease-in-out;
+}
+
+.burger span::before,
+.burger span::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  transition: transform 0.5s ease-in-out;
+}
+
+.burger span::before {
+  transform: translateY(-10px);
+}
+
+.burger span::after {
+  transform: translateY(10px);
+}
+
+.burger.active span {
+  background-color: transparent;
+}
+
+.burger.active span::before {
+  transform: translateY(0px) rotateZ(45deg);
+}
+
+.burger.active span::after {
+  transform: translateY(0px) rotateZ(-45deg);
+}
+
+#menu-content {
+  display: none;
+  /* Autres styles pour le contenu du menu */
+}
+
+#menu-content.active {
+  display: block;
+}
+
+
+
+
+
+#menu-content {
+  display: none;
+  width: 25%;
+  background-color: rgba(141, 139, 42, 0.479);
+  padding-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.allimagesP {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstTP {
+  margin: 40px 40px 40px 10px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  position: relative;
+
+}
+
+.firstTP a {
+  
+  text-decoration: none;
+}
+
+.firstTP img {
+  height: 63px;
+  width: 60px;
+
+}
+
+.nameTp {
+  font-size: 20px;
+  position: absolute;
+  top:80px;
+  right: 15px;
+  font-family: 'MuseoModerno', cursive;
+  font-weight: bolder;
+}
+
+.etd,.mod,.abs{
+  font-size: 20px;
+  font-family: 'MuseoModerno', cursive;
+  font-weight: bolder;
+}
+
+#emploip , #notesp{
+  position: absolute;
+  left: 4px;
+}
+
+
+
+#menu-nav-bar{
+
+  display: flex;
+
+}
+
+#info-prof{
+  flex:1;
+  margin: 100px;
+  padding: 50px;
+  border-left: 2px solid black;
+  position: relative;
+}
+
+.VL{
+  height: 200px;
+  width: 2px;
+  background-color: black;
+
+}
+
+.nom, .prenom, .tel , .adr , .dep , .spe, .email, .sexe {
+  font-family: 'MuseoModerno', cursive;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+#IdProf{
+
+  font-family: 'MuseoModerno', cursive;
+  text-decoration: underline;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  margin:40px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: -110px;
+}

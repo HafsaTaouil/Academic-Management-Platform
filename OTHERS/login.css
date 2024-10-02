@@ -1,0 +1,80 @@
+*{
+
+}
+
+#home-login{
+	border: 1px solid black;
+	width: 55%;
+	height: 400px;
+	margin: 100px;
+	margin-left: 300px;
+	margin-top: 120px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.LEFT{
+	flex:1;
+	background-color: rgba(141, 139, 42, 0.479);
+	 
+}
+
+.RIGHT{
+	flex: 1;
+	
+}
+.TITRE{
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	padding: 20px;
+	letter-spacing: 2px;
+	font-weight: bolder;
+}
+
+#username , #password{
+	margin : 10px 0px 0px 93px;
+	height: 38px;
+	padding: 2px;
+	box-sizing: border-box;
+}
+
+#R{
+	margin: 10px 0px 0px 50px;
+
+}
+.RM{
+	font-family: 'Comfortaa', cursive;
+	font-size: 10px;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	position: relative;
+	bottom: 25px;
+	left: 70px;
+}
+#connect{
+	width: 175px;
+	height: 30px;
+	margin-left: 93px;
+	background-color: rgba(141, 139, 42, 0.479);
+	border: none;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bolder;
+	cursor: pointer;
+	position: relative;
+	bottom: 36px;
+
+}
+
+.copyright{
+	font-family: 'Comfortaa', cursive;
+	font-size: 13px;	
+	position: relative;
+	bottom: 33px;
+	left: 56px;
+
+}
+
+#connect:hover{
+	box-shadow: ;
+	background-color: rgba(141, 139, 42, 1);
+}

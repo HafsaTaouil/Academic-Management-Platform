@@ -1,0 +1,67 @@
+header{
+	flex: 1;
+	display: flex;
+    align-items: center;
+    padding: 60px 40px ;
+    position: relative;
+    background-color: rgba(141, 139, 42, 0.479);
+    margin-bottom: 15px;
+}
+header .nav-bar , .welcoming , .logo{
+	flex:1;
+} 
+div.image-library{
+    box-sizing: border-box;
+}
+img[alt="Logo_ENSAH"]{
+    width: 120px;
+    height: 100px;
+    flex:1;
+}
+
+header nav.first-nav div.welcoming{
+	font-size: 25px;
+    flex:1;
+    font-weight: bolder;
+}
+
+
+.nav-bar ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-bar ul li{
+    text-decoration: none;
+    list-style: none;
+    border : 1px solid white;
+    margin-right: 20px;
+}
+
+.nav-bar ul li a{
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 25px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover{
+    color: #11101b;
+    background: #fefefe;
+}
+.menu li.active a {
+  background-color: white;
+  color: black;
+}
+
+.welcoming{
+    position: relative;
+    top:16px;
+}
+
+
+
+

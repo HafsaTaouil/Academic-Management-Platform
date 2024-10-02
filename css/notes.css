@@ -1,0 +1,163 @@
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    padding: 60px;
+    border-radius:20px ;
+    background-color: rgba(0, 0, 0 0.2rem);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.btn-primary {
+    background-color: rgba(97, 96, 30, 75%);;
+    border-color: rgba(97, 96, 30, 75%);
+}
+.btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.75);;
+    border-color: rgba(82, 81, 27, 0.75);;
+}
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(97, 96, 30, 75%);
+}
+
+
+
+
+
+
+
+
+
+.VosM p{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 45px;
+    margin: 80px;
+    color: rgb(0, 0, 0);
+}
+.VosM .HL{
+    margin: 0 80px 0 80px;
+    height: 4px;
+    background-color: #000;
+}
+
+#imgInCenter{
+    opacity: 0.1;
+}
+
+
+/* Raccourcis */
+aside#A-racc{
+    margin: 80px;
+}
+aside#A-racc img{
+    padding: 10px;
+    margin: 70px;
+    height: 70px;
+    width: 70px;
+    margin-right: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    background-color: rgba(170, 169, 78, 0.377);
+    border-radius: 10px;
+}
+
+.allimages{
+
+    display: flex;
+}
+
+aside#A-racc p.special-para{
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+    letter-spacing: 18px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.allimages .nameT{
+    font-size: 20px;
+    position: relative;
+
+    font-size: 20px;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+}
+
+.allimages .firstT{
+    flex:1;
+    
+}
+
+hr{
+    height: 2px;
+    background-color: #000;
+}
+
+
+/* Raccourcis */
+aside#A-racc{
+    margin-bottom: 80px;
+}
+aside#A-racc img{
+    padding: 10px;
+    margin: 70px;
+    height: 70px;
+    width: 70px;
+    margin-right: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    background-color: rgba(170, 169, 78, 0.377);
+    border-radius: 10px;
+}
+
+.allimages{
+    display: flex;
+    margin-left: 40px;
+}
+
+aside#A-racc p.special-para{
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+    letter-spacing: 18px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.allimages .nameT{
+    font-size: 20px;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bold;
+    margin-left: 73px;
+    margin-top: -55px;
+}
+
+
+.allimages .firstT{
+    flex:1;
+    
+}
+
+aside#A-racc hr{
+    margin: 0 80px 0 80px;
+    height: 4px;
+    background-color: black;
+    font-weight: bold;
+}
+
+
+.labdate{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+input[type=date] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    margin-bottom: 20px;
+  }

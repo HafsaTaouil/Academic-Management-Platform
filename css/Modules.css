@@ -1,0 +1,100 @@
+#allModules > p:first-child {
+  font-family: 'MuseoModerno', cursive;
+  font-size: 50px;
+  margin: 80px;
+  color: rgb(0, 0, 0);
+  flex: 1;
+}
+
+#allModules .HL > hr{
+  margin: 0 80px 80px 80px;
+  border-width: 6px;
+  border-color: black;
+  font-weight: bold;
+}
+
+#home-module{
+  display: flex;
+  flex-direction: column;
+}
+
+div#top, div#Bottom{
+  flex:1;
+
+}
+
+
+
+
+#containColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+#top{
+  flex:1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Alignement des modules au début */
+  gap: 20px; /* Ajout de l'espace entre les modules */
+}
+
+#Bottom{
+  flex:1;
+}
+
+.module {
+  display: flex;
+  flex-direction: column; /* Affichage vertical des informations du module */
+  border: 1px solid black;
+  padding: 50px;
+  margin-bottom: 20px;
+  width: calc(25% - 20px); /* Réduire la largeur pour compenser l'espace entre les modules */
+  box-sizing: border-box;
+}
+
+.module:last-child {
+  margin-right: 0; /* Suppression de l'espace après le dernier module */
+}
+
+.module img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px; /* Espace après l'image */
+}
+
+.module h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: 'MuseoModerno', cursive;
+  color: white;
+ background-color: black;
+
+}
+
+.module p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.module p.preDescription {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'MuseoModerno', cursive;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+img[alt="Right Arrow"]{
+  width: 40px;
+    height: 40px;
+}
+.PDD{
+  font-family: 'Genos', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+#A-racc{
+  margin-top: 180px;
+}
